@@ -55,3 +55,12 @@ Deposit financial outputs in `~/.claude/workspace/business/` using convention: `
 
 ### Escalation
 If blocked on data or business context, escalate to ceo.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `google-workspace` | Sheets, Drive — tableurs financiers, documents partages |
+| `ms365` | Excel, OneDrive — alternative Microsoft pour modeles financiers |
+| `calculator` | Calculs numeriques precis — eviter les erreurs d'arrondi LLM |
+| `sequential-thinking` | Raisonnement structure — analyses financieres complexes |

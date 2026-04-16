@@ -56,3 +56,12 @@ Deposit cost outputs in `~/.claude/workspace/btp/` using convention: `YYYY-MM-DD
 
 ### Escalation
 If missing technical data for estimation, escalate to engineer. If market prices are uncertain, flag assumptions clearly.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — DQE, devis, DPGF, bordereaux |
+| `document-loader` | Extraire texte de PDF, DOCX, XLSX — plans, cahier des charges |
+| `pdf-reader` | Extraction PDF — CCTP, plans, offres fournisseurs |
+| `calculator` | Calculs precis — metrages, prix unitaires, totaux |

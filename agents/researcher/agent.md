@@ -81,3 +81,10 @@ Deposit research outputs in `~/.claude/workspace/shared/` using convention: `YYY
 
 ### Escalation
 If you cannot complete a request, respond with status: blocked and explain what's missing.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `sequential-thinking` | Raisonnement structure — decomposer recherches complexes |
+| `memory` | Knowledge graph — stocker et retrouver les resultats de recherche |

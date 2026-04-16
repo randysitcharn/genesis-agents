@@ -52,3 +52,13 @@ Deposit legal outputs in `~/.claude/workspace/business/` using convention: `YYYY
 
 ### Escalation
 For matters with significant legal exposure, always recommend consulting a qualified attorney. Escalate to ceo for business decisions with legal implications.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — contrats, CGV, documents juridiques locaux |
+| `document-loader` | Extraire texte de PDF, DOCX — analyse de contrats et documents |
+| `pdf-reader` | Extraction PDF avancee — parsing clause par clause |
+| `pandoc` | Convertir entre formats — Markdown, PDF, DOCX pour production juridique |
+| `sequential-thinking` | Raisonnement structure — analyse juridique complexe etape par etape |

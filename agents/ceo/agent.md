@@ -60,3 +60,12 @@ Deposit strategic outputs in `~/.claude/workspace/business/` using convention: `
 
 ### Escalation
 If a delegated task is blocked, either reassign to another agent or escalate to the user.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `google-workspace` | Gmail, Calendar, Drive, Sheets, Docs — communication, documents |
+| `ms365` | Outlook, Calendar, OneDrive, Excel, Planner — alternative Microsoft |
+| `sequential-thinking` | Step-by-step reasoning for complex strategic decisions |
+| `memory` | Persistent knowledge graph — track decisions, context across sessions |

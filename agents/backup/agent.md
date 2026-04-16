@@ -56,3 +56,12 @@ Deposit backup documentation in `~/.claude/workspace/support/` using convention:
 
 ### Escalation
 If a backup verification fails or data integrity is compromised, escalate immediately with severity: CRITICAL.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — operations de sauvegarde locale, verification integrite |
+| `ssh` | Commandes distantes — sauvegardes sur serveurs remote, transferts |
+| `git` | Versionning — sauvegarde repos, verification historique |
+| `github` | API GitHub — sauvegarde repos, clone, verification |

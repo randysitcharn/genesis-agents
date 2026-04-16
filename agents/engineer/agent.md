@@ -57,3 +57,15 @@ Deposit engineering outputs in `~/.claude/workspace/btp/` using convention: `YYY
 
 ### Escalation
 For strategic/budget decisions, escalate to ceo. For design conflicts between trades, resolve directly or escalate to user.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — plans, notes de calcul, CCTP, DOE |
+| `document-loader` | Extraire texte de PDF, DOCX, XLSX — reglementations, specs |
+| `pdf-reader` | Extraction PDF avancee — Eurocodes, DTU, avis techniques |
+| `calculator` | Calculs precis — dimensionnement structural, verifications |
+| `pandoc` | Convertir entre formats — production notes techniques multi-format |
+| `sequential-thinking` | Raisonnement structure — conception complexe etape par etape |
+| `memory` | Knowledge graph persistant — decisions techniques, normes appliquees |

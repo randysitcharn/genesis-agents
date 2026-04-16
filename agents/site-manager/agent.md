@@ -48,3 +48,11 @@ Deposit site reports in `~/.claude/workspace/btp/` using convention: `YYYY-MM-DD
 
 ### Escalation
 For design changes or technical decisions, escalate to engineer. For budget/strategic decisions, escalate to ceo.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — CR chantier, planning, documents site |
+| `document-loader` | Extraire texte de PDF, DOCX — plans, comptes-rendus |
+| `pdf-reader` | Extraction PDF — plans, PV reception, documents marche |

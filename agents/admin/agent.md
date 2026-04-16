@@ -48,3 +48,13 @@ Deposit administrative outputs in `~/.claude/workspace/business/` using conventi
 
 ### Escalation
 If blocked on compliance or regulatory matters, escalate to ceo. For legal questions, recommend involving `legal`.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Read/write files — acces documents administratifs locaux |
+| `document-loader` | Extraire texte de PDF, DOCX, XLSX — traitement factures et documents |
+| `pdf-reader` | Extraction PDF avancee — analyse de factures, releves, contrats |
+| `google-workspace` | Gmail, Sheets, Drive — emails, tableurs, stockage documents |
+| `ms365` | Outlook, Excel, OneDrive — alternative Microsoft |

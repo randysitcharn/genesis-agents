@@ -3,6 +3,7 @@ name: monitor
 description: Lightweight monitoring agent for tracking status, health checks, deadlines, and recurring checks across any domain. Optimized for speed and low token usage.
 model: claude-haiku-4-5
 tools: Read Bash Grep Glob
+memory: false
 ---
 
 # Monitor Agent
@@ -85,3 +86,10 @@ Deposit status reports in `~/.claude/workspace/shared/` using convention: `YYYY-
 
 ### Escalation
 If a check reveals a critical issue, escalate immediately to the requesting agent with severity level.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — lire logs, configs, fichiers d'etat |
+| `git` | Git status — verifier etat repos, derniers commits |

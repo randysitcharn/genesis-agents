@@ -64,3 +64,15 @@ Deposit documentation in `~/.claude/workspace/shared/` or the requesting domain'
 
 ### Escalation
 If documentation reveals inconsistencies between agents' outputs, flag it to the requesting agent.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — lire/ecrire documentation locale |
+| `document-loader` | Extraire texte de PDF, DOCX, XLSX — convertir docs existants |
+| `pdf-reader` | Extraction PDF — archivage, indexation documents |
+| `markdownify` | Convertir PDF, DOCX, HTML en Markdown — normaliser la documentation |
+| `pandoc` | Conversion multi-format — Markdown, LaTeX, PDF, DOCX, EPUB |
+| `git` | Versionner la documentation — historique, branches, diffs |
+| `github` | API GitHub — publier docs, gerer wiki, issues documentation |

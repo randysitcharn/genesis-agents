@@ -54,3 +54,11 @@ Deposit monitoring reports in `~/.claude/workspace/support/` using convention: `
 
 ### Escalation
 If monitoring detects a critical issue, escalate immediately to the requesting agent with severity: CRITICAL.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — lecture logs, configs, fichiers d'etat |
+| `ssh` | Commandes distantes — verifier sante serveurs, collecter metriques |
+| `git` | Git operations — verifier etat repos, derniers commits, branches |

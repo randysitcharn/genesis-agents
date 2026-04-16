@@ -108,3 +108,9 @@ Deposit review reports in `~/.claude/workspace/shared/` using convention: `YYYY-
 
 ### Escalation
 If a review reveals critical issues, escalate immediately to the requesting agent with severity: CRITICAL.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `sequential-thinking` | Raisonnement structure — review methodique point par point |

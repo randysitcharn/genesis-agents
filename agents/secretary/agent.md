@@ -48,3 +48,10 @@ Deposit outputs in `~/.claude/workspace/business/` using convention: `YYYY-MM-DD
 
 ### Escalation
 If you cannot complete a request, escalate back to the requesting agent with status: blocked.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `google-workspace` | Gmail, Calendar, Drive, Sheets, Docs, Tasks — agenda, emails, documents |
+| `ms365` | Outlook, Calendar, OneDrive, Excel, Planner — alternative Microsoft |

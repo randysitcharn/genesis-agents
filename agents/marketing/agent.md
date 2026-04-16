@@ -48,3 +48,11 @@ Deposit marketing outputs in `~/.claude/workspace/business/` using convention: `
 
 ### Escalation
 If blocked (missing data, budget questions, brand decisions), escalate to ceo.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `google-workspace` | Gmail, Docs, Sheets — newsletters, content, analytics |
+| `ms365` | Outlook, Excel — alternative Microsoft |
+| `pandoc` | Convertir Markdown vers PDF, HTML, DOCX — production de contenu multi-format |

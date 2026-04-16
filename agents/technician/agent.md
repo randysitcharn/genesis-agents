@@ -55,3 +55,12 @@ Deposit technical outputs in `~/.claude/workspace/btp/` using convention: `YYYY-
 
 ### Escalation
 If a calculation reveals a safety concern or norm non-compliance, escalate immediately to engineer.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — fiches techniques, plans, documents chantier |
+| `document-loader` | Extraire texte de PDF, DOCX, XLSX — normes, specs, plans |
+| `pdf-reader` | Extraction PDF avancee — DTU, Eurocodes, fiches produits |
+| `calculator` | Calculs precis — dimensionnement, verifications, metrages |

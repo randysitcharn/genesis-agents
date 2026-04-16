@@ -48,3 +48,10 @@ Deposit HR outputs in `~/.claude/workspace/business/` using convention: `YYYY-MM
 
 ### Escalation
 For legal questions (labor law edge cases, litigation risk), recommend involving `legal` via ceo.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `google-workspace` | Calendar, Gmail, Drive — planifier entretiens, correspondance, dossiers |
+| `ms365` | Outlook, Calendar, OneDrive — alternative Microsoft |

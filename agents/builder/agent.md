@@ -4,6 +4,7 @@ description: Execution agent for producing deliverables — implements plans, cr
 model: claude-opus-4-6
 tools: Read Write Edit Bash Grep Glob
 skills: genesis-quality-gate
+memory: true
 permissions:
   defaultMode: plan
 ---
@@ -87,3 +88,11 @@ Deposit implementation reports in `~/.claude/workspace/shared/` using convention
 
 ### Escalation
 If blocked, escalate to genesis with status: blocked and a clear description of the blocker.
+
+## Available MCPs
+
+| MCP | What it provides |
+|-----|-----------------|
+| `filesystem` | Acces fichiers — lire/ecrire les livrables |
+| `git` | Versionning — commiter les changements, gerer les branches |
+| `sequential-thinking` | Raisonnement structure — planification avant implementation |
