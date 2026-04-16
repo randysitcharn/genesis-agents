@@ -29,6 +29,7 @@ Based on `$ARGUMENTS`, determine the action:
 | Status/dashboard/overview | `/genesis-status $ARGUMENTS` |
 | Catalog/list/search/describe skills | `/genesis-catalog $ARGUMENTS` |
 | Benchmark/compare/analyze competitors | `/genesis-benchmark $ARGUMENTS` |
+| Connect/wire/topology/rewire agent | `/genesis-connect $ARGUMENTS` |
 | General orchestration | Handle directly |
 
 ## If No Clear Route

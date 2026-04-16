@@ -81,12 +81,24 @@ If the agent needs external tools:
 2. Use `/genesis-discover-mcp` to find and configure them
 3. Add tool permissions to the agent's allowed-tools
 
-## Step 6: Verify
+## Step 6: Connect to Ecosystem
+
+After creating the agent, run `/genesis-connect {name}` to:
+1. Add it to the agent registry in `~/.claude/agents.md`
+2. Define its delegation chain (who it reports to, who it can delegate to)
+3. Generate its agent card (capabilities, inputs, outputs, limitations)
+4. Update the communication topology
+5. Create its workspace directory
+
+This step is MANDATORY — an unconnected agent is invisible to the ecosystem.
+
+## Step 7: Verify
 
 1. Check file exists: `ls ~/.claude/agents/{name}/agent.md`
 2. Check skills exist: `ls ~/.claude/skills/{name}-*/SKILL.md`
 3. Validate YAML frontmatter syntax
-4. Test invoke: describe a matching task to see if Claude routes to the agent
+4. Check agent is in `~/.claude/agents.md` registry
+5. Test invoke: describe a matching task to see if Claude routes to the agent
 
 ## Output Format
 
@@ -99,6 +111,7 @@ Agent: {name}
   Skills: {list}
   MCPs: {list or "none"}
   Memory: {yes/no}
+  Connected: {domain} — reports to {list}, delegates to {list}
   
 Ready to use. Trigger by: {describe matching task}
 ```

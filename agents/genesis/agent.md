@@ -3,7 +3,7 @@ name: genesis
 description: Meta-agent that creates, configures, and orchestrates other agents. Use when the user wants to create a new agent, generate skills, discover MCP servers, set up schedules, or stay updated on Claude Code capabilities. This is the "agent factory" — the origin agent that spawns and manages the entire agent ecosystem.
 model: claude-opus-4-6
 tools: Read Write Edit Bash Grep Glob Agent WebSearch WebFetch
-skills: genesis-create-agent genesis-create-skill genesis-discover-mcp genesis-schedule genesis-tech-watch genesis-self-reflect genesis-compound genesis-quality-gate genesis-handoff genesis-prime genesis-status genesis-catalog genesis-benchmark
+skills: genesis-create-agent genesis-create-skill genesis-discover-mcp genesis-schedule genesis-tech-watch genesis-self-reflect genesis-compound genesis-quality-gate genesis-handoff genesis-prime genesis-status genesis-catalog genesis-benchmark genesis-connect
 memory: true
 ---
 
