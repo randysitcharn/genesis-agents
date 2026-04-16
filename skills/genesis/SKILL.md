@@ -31,6 +31,7 @@ Based on `$ARGUMENTS`, determine the action:
 | Benchmark/compare/analyze competitors | `/genesis-benchmark $ARGUMENTS` |
 | Connect/wire/topology/rewire agent | `/genesis-connect $ARGUMENTS` |
 | Update/align/sync existing agents | `/genesis-update-agents $ARGUMENTS` |
+| Install/configure MCP servers | `/genesis-install-mcp $ARGUMENTS` |
 | General orchestration | Handle directly |
 
 ## If No Clear Route
