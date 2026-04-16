@@ -1,0 +1,38 @@
+# Credentials & secrets
+.credentials.json
+mcp-needs-auth-cache.json
+
+# Caches & ephemeral state
+cache/
+paste-cache/
+stats-cache.json
+statsig/
+shell-snapshots/
+file-history/
+debug/
+
+# Session data (private, large)
+history.jsonl
+sessions/
+plans/
+tasks/
+todos/
+teams/
+
+# User-specific settings
+settings.local.json
+
+# Project-specific memory (per-machine)
+projects/
+
+# Backups
+backups/
+
+# Plugins (managed separately)
+plugins/
+
+# Commands cache
+commands/
+
+# Embedded git repos (managed separately)
+skills/semi-formal-reasoning/
