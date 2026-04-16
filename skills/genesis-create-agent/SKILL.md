@@ -74,12 +74,20 @@ For each agent, create 2-4 core skills:
 
 Use `/genesis-create-skill` for each.
 
-## Step 5: Configure MCP (if needed)
+## Step 5: Assign MCPs from Base Catalog
 
-If the agent needs external tools:
-1. Identify required MCP servers
-2. Use `/genesis-discover-mcp` to find and configure them
-3. Add tool permissions to the agent's allowed-tools
+Read the base MCP catalog at `~/.claude/agents/genesis/mcp-catalog.md`.
+
+1. Find the new agent's name in the relevance matrix
+2. Collect all MCPs marked `x` → auto-assign (inform user)
+3. Collect all MCPs marked `?` → ask user for approval
+4. If agent not in matrix → show full catalog and ask user to pick
+5. For each selected MCP:
+   a. Check if already configured in `~/.claude/settings.json`
+   b. If not configured, add the MCP server config from the catalog
+   c. Add `mcp__{id}__*` to allow list in settings.json
+   d. Add MCP tool references to agent's `tools` in frontmatter
+6. If the user wants additional MCPs beyond the catalog → use `/genesis-discover-mcp`
 
 ## Step 6: Connect to Ecosystem
 
