@@ -44,7 +44,7 @@ Each agent declares its identity, capabilities, and communication interface.
 |-------|-------|------|-----------------------|-----------------|
 | backup | Sonnet | Sauvegarde, restauration, DR | user, genesis, ceo | none |
 | monitoring | Haiku | Surveillance, alertes, logs | user, genesis, ceo | none |
-| doc-keeper | Sonnet | Documentation, archivage, wiki | any | none |
+| doc-keeper | Sonnet | Documentation, versionning (Git LFS), maquettes BTP, archivage | any | none |
 
 ## Communication Rules
 
