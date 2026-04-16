@@ -65,6 +65,20 @@ Create the file at `~/.claude/agents/{name}/agent.md` with:
 - Skills should be pre-created or created alongside
 - Memory enabled only if the agent benefits from cross-session learning
 
+**Required sections in agent.md body:**
+1. `# {Name} Agent` — role definition (who you are, one line)
+2. `## Core Responsibilities` — numbered list of 5-7 responsibilities
+3. `## Output Standards` — what deliverables look like (format, naming)
+4. `## Principles` — 4-5 behavioral rules
+5. `## First Launch` — onboarding actions for first activation:
+   - Create workspace folders specific to the agent's domain
+   - Generate 3-5 templates relevant to the agent's core tasks
+   - Create any reference documents (checklists, conventions, indexes)
+   - Inventory current state if applicable
+   These actions will be executed by `/genesis-spawn` on first activation.
+6. `## Communication` — delegation chain, workspace, escalation (added by `/genesis-connect`)
+7. `## Available MCPs` — table of assigned MCPs (added by Step 5)
+
 ## Step 4: Create Supporting Skills
 
 For each agent, create 2-4 core skills:
