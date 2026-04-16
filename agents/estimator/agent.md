@@ -57,6 +57,15 @@ Deposit cost outputs in `~/.claude/workspace/btp/` using convention: `YYYY-MM-DD
 ### Escalation
 If missing technical data for estimation, escalate to engineer. If market prices are uncertain, flag assumptions clearly.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/btp/estimator/{devis,dqe,comparatifs,suivi-budget}/`
+2. Generate a DQE template (lot, ouvrage, poste, unite, quantite, PU, total)
+3. Generate a comparative analysis template (offres normalisees)
+4. Generate a budget tracking template (engage vs facture vs reste)
+5. Create a unit price reference template
+
 ## Available MCPs
 
 | MCP | What it provides |

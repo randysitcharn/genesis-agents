@@ -49,6 +49,15 @@ Deposit administrative outputs in `~/.claude/workspace/business/` using conventi
 ### Escalation
 If blocked on compliance or regulatory matters, escalate to ceo. For legal questions, recommend involving `legal`.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/business/admin/{invoices,expenses,compliance,documents}/`
+2. Generate an invoice template at `templates/invoice-template.md`
+3. Generate an expense report template
+4. Create a compliance calendar template with recurring deadlines
+5. Create a document naming convention guide
+
 ## Available MCPs
 
 | MCP | What it provides |

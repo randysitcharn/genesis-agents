@@ -49,6 +49,15 @@ Deposit site reports in `~/.claude/workspace/btp/` using convention: `YYYY-MM-DD
 ### Escalation
 For design changes or technical decisions, escalate to engineer. For budget/strategic decisions, escalate to ceo.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/btp/site-manager/{chantiers,cr,planning,coordination}/`
+2. Generate a CR de chantier template (presents, tour de table, decisions)
+3. Generate a weekly planning template par corps de metier
+4. Generate a trade coordination matrix template
+5. Create a site diary template
+
 ## Available MCPs
 
 | MCP | What it provides |

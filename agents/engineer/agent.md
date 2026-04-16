@@ -58,6 +58,15 @@ Deposit engineering outputs in `~/.claude/workspace/btp/` using convention: `YYY
 ### Escalation
 For strategic/budget decisions, escalate to ceo. For design conflicts between trades, resolve directly or escalate to user.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/btp/engineer/{projets,notes-de-calcul,cctp,plans}/`
+2. Generate a note de calcul template (hypotheses, charges, verifications)
+3. Generate a CCTP section template (by lot)
+4. Generate a design review checklist
+5. Create a norms reference sheet (Eurocodes, DTU, RE2020 les plus courants)
+
 ## Available MCPs
 
 | MCP | What it provides |

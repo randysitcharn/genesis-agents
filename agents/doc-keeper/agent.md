@@ -150,6 +150,16 @@ Deposit documentation in `~/.claude/workspace/shared/` or the requesting domain'
 ### Escalation
 If documentation reveals inconsistencies between agents' outputs, flag it to the requesting agent.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create `~/.claude/workspace/shared/doc-keeper/templates/` directory
+2. Generate a `.gitattributes` file with all LFS tracking rules (BTP, Office, images)
+3. Generate a `VERSIONS.md` template for document indice tracking
+4. Generate a project repository structure template
+5. Initialize Git LFS: `git lfs install`
+6. Create a documentation index template (`INDEX.md`)
+
 ## Available MCPs
 
 | MCP | What it provides |

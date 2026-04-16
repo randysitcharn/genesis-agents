@@ -53,6 +53,15 @@ Deposit legal outputs in `~/.claude/workspace/business/` using convention: `YYYY
 ### Escalation
 For matters with significant legal exposure, always recommend consulting a qualified attorney. Escalate to ceo for business decisions with legal implications.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/business/legal/{contracts,policies,compliance,watch}/`
+2. Generate a contract review checklist (clauses a verifier)
+3. Generate a RGPD compliance checklist
+4. Generate a legal risk assessment template
+5. Create a legal watch log template
+
 ## Available MCPs
 
 | MCP | What it provides |

@@ -49,6 +49,15 @@ Deposit outputs in `~/.claude/workspace/business/` using convention: `YYYY-MM-DD
 ### Escalation
 If you cannot complete a request, escalate back to the requesting agent with status: blocked.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create `~/.claude/workspace/business/secretary/templates/` directory
+2. Generate email templates (follow-up, meeting invite, thank you)
+3. Generate a meeting notes template with action items section
+4. Create a task tracking template
+5. Create a contacts/stakeholders template
+
 ## Available MCPs
 
 | MCP | What it provides |

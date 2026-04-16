@@ -49,6 +49,15 @@ Deposit marketing outputs in `~/.claude/workspace/business/` using convention: `
 ### Escalation
 If blocked (missing data, budget questions, brand decisions), escalate to ceo.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/business/marketing/{campaigns,content,analytics,brand}/`
+2. Generate a campaign brief template
+3. Generate a content calendar template (weekly/monthly)
+4. Generate a social media post template per channel
+5. Create a brand voice guidelines template
+
 ## Available MCPs
 
 | MCP | What it provides |

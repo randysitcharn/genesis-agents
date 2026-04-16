@@ -57,6 +57,15 @@ Deposit backup documentation in `~/.claude/workspace/support/` using convention:
 ### Escalation
 If a backup verification fails or data integrity is compromised, escalate immediately with severity: CRITICAL.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create `~/.claude/workspace/support/backup/` directory
+2. Generate a backup strategy template (regle 3-2-1, RPO/RTO)
+3. Generate a disaster recovery plan template
+4. Generate a test restore checklist
+5. Inventory current state: what data exists, what's backed up, what's not
+
 ## Available MCPs
 
 | MCP | What it provides |

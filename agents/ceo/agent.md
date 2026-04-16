@@ -61,6 +61,15 @@ Deposit strategic outputs in `~/.claude/workspace/business/` using convention: `
 ### Escalation
 If a delegated task is blocked, either reassign to another agent or escalate to the user.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create `~/.claude/workspace/business/strategy/` directory
+2. Generate a blank OKR template at `templates/okr-template.md`
+3. Generate a delegation matrix summary from `~/.claude/agents.md`
+4. Create a weekly review template at `templates/weekly-review.md`
+5. Create a decision log at `decision-log.md`
+
 ## Available MCPs
 
 | MCP | What it provides |

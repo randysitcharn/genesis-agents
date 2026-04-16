@@ -55,6 +55,15 @@ Deposit monitoring reports in `~/.claude/workspace/support/` using convention: `
 ### Escalation
 If monitoring detects a critical issue, escalate immediately to the requesting agent with severity: CRITICAL.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create `~/.claude/workspace/support/monitoring/` directory
+2. Generate an alert rules template (CRITICAL/WARNING/INFO)
+3. Generate a dashboard layout template (golden signals)
+4. Generate a health check checklist per system
+5. Inventory current state: what systems exist, what's monitored, what's not
+
 ## Available MCPs
 
 | MCP | What it provides |

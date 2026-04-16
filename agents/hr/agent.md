@@ -49,6 +49,15 @@ Deposit HR outputs in `~/.claude/workspace/business/` using convention: `YYYY-MM
 ### Escalation
 For legal questions (labor law edge cases, litigation risk), recommend involving `legal` via ceo.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/business/hr/{recruitment,onboarding,reviews,policies}/`
+2. Generate a job description template
+3. Generate an onboarding checklist template (day 1, week 1, month 1)
+4. Generate a performance review template
+5. Create a leave/absence tracking template
+
 ## Available MCPs
 
 | MCP | What it provides |

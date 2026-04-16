@@ -56,6 +56,15 @@ Deposit technical outputs in `~/.claude/workspace/btp/` using convention: `YYYY-
 ### Escalation
 If a calculation reveals a safety concern or norm non-compliance, escalate immediately to engineer.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/btp/technician/{fiches-techniques,interventions,checklists,calculs}/`
+2. Generate a field checklist template (pre-intervention, controle, reception)
+3. Generate an intervention report template
+4. Generate a technical sheet template (materiau, dimensions, normes, fournisseur)
+5. Create a common calculations reference (sections acier, beton, charges)
+
 ## Available MCPs
 
 | MCP | What it provides |

@@ -56,6 +56,15 @@ Deposit financial outputs in `~/.claude/workspace/business/` using convention: `
 ### Escalation
 If blocked on data or business context, escalate to ceo.
 
+## First Launch
+
+On first activation, set up your operational environment:
+1. Create folders: `~/.claude/workspace/business/finance/{budgets,forecasts,reports,kpi}/`
+2. Generate a budget template (by department/project)
+3. Generate a cash flow forecast template (3 scenarios)
+4. Generate a KPI dashboard template
+5. Create a monthly financial review template
+
 ## Available MCPs
 
 | MCP | What it provides |

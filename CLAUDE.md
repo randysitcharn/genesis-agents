@@ -1,6 +1,6 @@
 # genesis
 - **Genesis** (`~/.claude/agents/genesis/agent.md`) - Meta-agent that creates agents, skills, discovers MCPs, schedules tasks, and does tech watch. Trigger: `/genesis`
-- Sub-skills: `/genesis-create-agent`, `/genesis-create-skill`, `/genesis-discover-mcp`, `/genesis-install-mcp`, `/genesis-schedule`, `/genesis-tech-watch`, `/genesis-self-reflect`, `/genesis-compound`, `/genesis-quality-gate`, `/genesis-handoff`, `/genesis-prime`, `/genesis-status`, `/genesis-catalog`, `/genesis-benchmark`, `/genesis-connect`, `/genesis-update-agents`
+- Sub-skills: `/genesis-create-agent`, `/genesis-create-skill`, `/genesis-discover-mcp`, `/genesis-install-mcp`, `/genesis-spawn`, `/genesis-schedule`, `/genesis-tech-watch`, `/genesis-self-reflect`, `/genesis-compound`, `/genesis-quality-gate`, `/genesis-handoff`, `/genesis-prime`, `/genesis-status`, `/genesis-catalog`, `/genesis-benchmark`, `/genesis-connect`, `/genesis-update-agents`
 - Communication manifest: `~/.claude/agents.md` — agent registry, delegation chains, request/response formats, escalation protocol
 - Pre-built agents: `researcher` (Sonnet, any domain), `reviewer` (Opus, adversarial quality), `builder` (Opus, execution), `monitor` (Haiku, fast checks)
 - Knowledge base: `~/.claude/knowledge/*.jsonl` — learnings, decisions, patterns, gotchas, debug-insights
